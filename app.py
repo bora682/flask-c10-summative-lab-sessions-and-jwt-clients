@@ -1,4 +1,5 @@
 from config import create_app
+from models import db  # ensures models are registered when app loads
 
 app = create_app()
 
